@@ -1,0 +1,42 @@
+On:
+https://www.mysqltutorial.org/mysql-sample-database.aspx
+
+MySQL Sample Database
+
+We use the classicmodels database as a MySQL sample database to help you work with MySQL quickly and effectively. The classicmodels database is a retailer of scale models of classic cars database. It contains typical business data such as customers, products, sales orders, sales order line items, etc.
+
+We use this sample database in our MySQL tutorials to demonstrate many MySQL features from simple queries to complex stored procedures.
+
+Download MySQL Sample Database
+You can download the MySQL sample database via the following link:
+
+Download MySQL Sample Database
+
+The download file is in ZIP format so you need a zip program to unzip it. You can download a free zip program at www.7-zip.org.
+
+After uncompressing the  sampledatabase.zip file, you can load the sample database into MySQL database server by following how to load sample database into MySQL database server tutorial and test it by using the following SQL statements:
+
+USE classicmodels;
+SELECT * FROM customers;
+Code language: SQL (Structured Query Language) (sql)
+Basically, those statements switch the current database to classicmodels and query data from the customers table. If you see the customer data returned, you have successfully imported the sample database into the MySQL database server.
+
+MySQL Sample Database Schema
+The MySQL sample database schema consists of the following tables:
+
+Customers: stores customer’s data.
+Products: stores a list of scale model cars.
+ProductLines: stores a list of product line categories.
+Orders: stores sales orders placed by customers.
+OrderDetails: stores sales order line items for each sales order.
+Payments: stores payments made by customers based on their accounts.
+Employees: stores all employee information as well as the organization structure such as who reports to whom.
+Offices: stores sales office data.
+MySQL Sample Database Schema
+You can download the MySQL sample database ER-diagram in PDF format via the following link.
+
+Download MySQL Sample Database Diagram PDF A4
+
+We recommend that you print the ER diagram out and stick it to your desk to get familiar with the schema while learning MySQL.
+
+Have fun learning MySQL!
